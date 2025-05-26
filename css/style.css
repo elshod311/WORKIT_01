@@ -1,0 +1,117 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    background: #fff;
+    color: #000;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: #0a0025;
+    color: white;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: #0a0025;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    position: relative;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero .btn {
+    display: inline-block;
+    margin-top: 10px;
+    background: #00ff88;
+    color: black;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .hero-image {
+    margin-top: 40px;
+    max-width: 300px;
+  }
+  
+  /* Features */
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 20px;
+    background: #f6f1fd;
+    text-align: center;
+  }
+  
+  .feature {
+    max-width: 250px;
+  }
+  
+  .feature h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  
+  /* Test Invite */
+  .test-invite {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #f6f1fd;
+    padding: 60px 20px;
+  }
+  
+  .test-invite .img-container img {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+  }
+  
+  .test-invite .text-container {
+    max-width: 400px;
+    background: #0a0025;
+    color: white;
+    padding: 30px;
+    border-radius: 20px;
+  }
+  
+  .test-invite .text-container .btn {
+    margin-top: 15px;
+    background: #00ff88;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 30px 0;
+    background: #fff;
+    font-weight: bold;
+  }
+  
